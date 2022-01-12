@@ -72,7 +72,6 @@ const championship1 = document.querySelector(".championship-1");
 championship1.addEventListener("input", (e) => {
     const choice = e.target.value;
     fillInNextMatch(10, choice);
-    console.log(championship1);
 });
 
 const championship2 = document.querySelector(".championship-2");

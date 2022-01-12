@@ -41,3 +41,6 @@ h2 {
 .button {
     padding: 0 1rem;
 }
+legend {
+    text-align: center;
+}

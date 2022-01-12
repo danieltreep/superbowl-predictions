@@ -44,3 +44,29 @@ h2 {
 legend {
     text-align: center;
 }
+
+@media only screen and (min-width: 1024px) {
+    form {
+        display: grid;
+        grid-template-columns: 3fr 1fr 3fr;
+        max-width: 1450px;
+    }
+    fieldset {
+        display: flex;
+    }
+    hr {
+        display: none;
+    }
+    img[alt=""] {
+        max-width: 150px;
+    }
+    .nfc {
+        order: 2;
+    }
+    .wildcards {
+        order: 2;
+    }
+    .divisionals {
+        order: 1;
+    }
+}

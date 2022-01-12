@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Superbowl Predictions</title>
+</head>
+<body>
+    <header>
+        <img src="images/superbowl.png" alt="">
+    </header>
+    <main>
+        <form action="mailto:danieltreep@live.nl?subject=My Prediction" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>AFC</legend>
+                <h2>Wildcard Weekend</h2>
+                <div class="match wildcard-1">
+                    
+                    <input type="radio" name="wildcard-afc-1" value="raiders">
+                    <img src="images/raiders.png" alt="">
+                    <input type="radio" name="wildcard-afc-1" value="bengals">
+                    <img src="images/bengals.png" alt="">
+                </div>
+                <div class="match wildcard-2">
+                    <input type="radio" name="wildcard-afc-2" value="patriots">
+                    <img src="images/patriots.png" alt="">
+                    <input type="radio" name="wildcard-afc-2" value="bills">
+                    <img src="images/bills.png" alt="">
+                </div>
+                <div class="match wildcard-3">
+                    <input type="radio" name="wildcard-afc-3" value="steelers">
+                    <img src="images/steelers.png" alt="">
+                    <input type="radio" name="wildcard-afc-3" value="chiefs">
+                    <img src="images/chiefs.png" alt="">
+                </div>
+                <hr>
+                <h2>Divisional Round</h2>
+                <div class="match divisional-1">
+                    
+                    <input type="radio" name="divisional-afc-1" value="titans">
+                    <img src="images/titans.png" alt="">
+                    <input type="radio" name="divisional-afc-1" value="" data-index="0">
+                    <img src="images/blank.png" alt="">
+                </div>
+                <div class="match divisional-2">
+                    <input type="radio" name="divisional-afc-2" value="" data-index="1">
+                    <img src="images/blank.png" alt="">
+                    <input type="radio" name="divisional-afc-2" value="" data-index="2">
+                    <img src="images/blank.png" alt="">
+                </div>
+                <hr>
+                <h2>Championship Sunday</h2>
+                <div class="match championship-1">
+                    
+                    <input type="radio" name="championship-afc" value="" data-index="3">
+                    <img src="images/blank.png" alt="">
+                    <input type="radio" name="championship-afc" value="" data-index="4">
+                    <img src="images/blank.png" alt="">
+                </div>
+                
+            </fieldset>
+            
+            <fieldset>
+                <legend>NFC</legend>
+                <h2>Wildcard Weekend</h2>
+                <div class="match wildcard-4">
+                    
+                    <input type="radio" name="wildcard-nfc-1" value="eagles">
+                    <img src="images/eagles.png" alt="">
+                    <input type="radio" name="wildcard-nfc-1" value="bucs">
+                    <img src="images/bucs.png" alt="">
+                </div>
+                <div class="match wildcard-5">
+                    <input type="radio" name="wildcard-nfc-2" value="49">
+                    <img src="images/49.png" alt="">
+                    <input type="radio" name="wildcard-nfc-2" value="cowboys">
+                    <img src="images/cowboys.png" alt="">
+                </div>
+                <div class="match wildcard-6">
+                    <input type="radio" name="wildcard-nfc-3" value="cardinals">
+                    <img src="images/cardinals.png" alt="">
+                    <input type="radio" name="wildcard-nfc-3" value="rams">
+                    <img src="images/rams.png" alt="">
+                </div>
+                <hr>
+                <h2>Divisional Round</h2>
+                <div class="match divisional-3">
+                    
+                    <input type="radio" name="divisional-nfx-1" value="packers">
+                    <img src="images/packers.png" alt="">
+                    <input type="radio" name="divisional-nfx-1" value="" data-index="5">
+                    <img src="images/blank.png" alt="">
+                </div>
+                <div class="match divisional-4">
+                    <input type="radio" name="divisional-nfc-2" value="" data-index="6">
+                    <img src="images/blank.png" alt="">
+                    <input type="radio" name="divisional-nfc-2" value="" data-index="7">
+                    <img src="images/blank.png" alt="">
+                </div>
+                <hr>
+                <h2>Championship Sunday</h2>
+                <div class="match championship-2">
+                    
+                    <input type="radio" name="championship-nfc" value="" data-index="8">
+                    <img src="images/blank.png" alt="">
+                    <input type="radio" name="championship-nfc" value="" data-index="9">
+                    <img src="images/blank.png" alt="">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Superbowl</legend>
+                <h2>Superbowl</h2>
+                <div class="match superbowl">
+                    
+                    <input type="radio" name="superbowl-winner" value="" data-index="10">
+                    <img src="images/blank.png" alt="">
+                    <input type="radio" name="superbowl-winner" value="" data-index="11">
+                    <img src="images/blank.png" alt="">
+                </div>
+            </fieldset>
+            <fieldset class="submit">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required class="text">
+                <input type="submit" value="send" class="button">
+            </fieldset>
+            
+        </form>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
